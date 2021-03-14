@@ -1,7 +1,7 @@
 # Team Members
 
 * [Michel Khalaf](https://github.com/MichelKhalaf)
-* [Christopher Habib-Rahme](https://github.com/ChrisRahme)
+* [Christopher Habib-Rahmé](https://github.com/ChrisRahme)
 * [Marianne Jbeily](https://github.com/mariannejbeyli)
 * [Mariella El Jreidy](https://github.com/MariellaJreidy)
 
