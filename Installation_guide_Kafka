@@ -1,0 +1,27 @@
+Install kafka and zookeeper:
+
+Installing Zookeeper:
+
+1- Download: http://zookeeper.apache.org/releases.html#download
+2- Copy and Rename “zoo_sample.cfg” to “zoo.cfg” in the conf folder.
+3- Find & edit dataDir=/tmp/zookeeper to a path which is one level up from the bin directory using any text editor like notepad or notepad++. (change the zookeeper version as yours)
+ex: dataDir=C:\\Tools\\zookeeper\\zookeeper-3.4.9 (You can also type in an absolute windows path starting from root C:\\)
+4- Add entries in System Environment Variables: 
+	Add in System Variables ZOOKEEPER_HOME = the directory of zookeeper
+	Edit System Variable named “Path” and append this in the last : %ZOOKEEPER_HOME%\bin
+
+Installing Kafka:
+
+1- Download: http://kafka.apache.org/downloads.html
+2- Go to your Kafka config directory.
+3- There is a sample server.properties file that we can start with.
+For one broker we just need to set up this one file. If we need multiple brokers then duplicate this file once for each broker. For example, if you need 2 message brokers then you’ll end up with server.b1.properties and server.b2.properties.
+In each file, you’ll change the following: 
+	The broker id
+	# The id of the broker. This must be set to a unique integer for each broker.
+	broker.id=0
+	If you’re just using 1 broker then leave it at 0. Nothing to change. If you have another broker then change the id in the other files so they are unique.
+
+Change the log dir you can keep it to an absolute path. You can use any Windows-style pathing here
+# A comma separated list of directories under which to store log files
+log.dirs=C:\Apache\kafka_2.12–2.3.1\logs
