@@ -5,7 +5,7 @@
 * [Marianne Jbeily](https://github.com/mariannejbeyli)
 * [Mariella El Jreidy](https://github.com/MariellaJreidy)
 
-# Kafka multi-broker producer-consumer
+# Kafka Multi-Broker Producer-Consumer
 
 The aim of this application is to fetch data relative to a particular hashtag from twitter using Twitter-API and sends it to consumers using a Kafka multi-broker producer-consumer application with a customized producer-partition strategy.
 
@@ -13,7 +13,7 @@ The aim of this application is to fetch data relative to a particular hashtag fr
 
 https://drive.google.com/file/d/1llJqTgEsHCP0TSHJFYWia2A7QhhLG_Gg/view?usp=sharing
 
-# Executing the code
+# Executing the Code
 
 1. Starting Zookeeper server:
 	* Open a terminal at the kafka folder
